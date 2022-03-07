@@ -1,0 +1,44 @@
+.messages {
+  padding: 10px;
+  margin: 10px;
+  width: fit-content;
+  max-width: 60%;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.messages_avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.messages_text {
+  display: flex;
+  flex-direction: column;
+}
+.messages__user {
+  margin-left: auto;
+  color: white;
+  text-align: left !important;
+}
+
+.messages__userCard {
+  background: linear-gradient(to left, #4776E6, #8E54E9) !important;
+  border-radius: 35px !important;
+  color: white !important;
+}
+
+.messages__guestCard {
+  background-color: #e9e9eb !important;
+  border-radius: 35px !important;
+}
+
+.username {
+  text-transform: capitalize;
+  text-align: left;
+  padding-left: 12px;
+  padding-bottom: 4px;
+}
+.MuiCardContent-root {
+  padding-bottom: 16px !important;
+}
